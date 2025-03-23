@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments - Manas Art Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/languageSwitcher.js"></script>
+    <style>
+        .font-playfair { font-family: 'Playfair Display', serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+    </style>
+</head>
+<body class="font-roboto">
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="assets/images/logo.svg" alt="University Logo" class="h-12">
+                        <span class="ml-2 text-xl font-semibold" data-translate="academy_name">Manas Art Academy</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="about.html" class="text-gray-700 hover:text-red-800" data-translate="nav_about">About</a>
+                    <a href="departments.html" class="text-red-800 hover:text-red-700" data-translate="nav_departments">Departments</a>
+                    <a href="gallery.html" class="text-gray-700 hover:text-red-800" data-translate="nav_gallery">Gallery</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-red-800" data-translate="nav_contact">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-16">
+        <div class="relative py-16 bg-red-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl font-bold text-white font-playfair" data-translate="departments_title">Our Departments</h1>
+                <p class="mt-4 text-xl text-red-100" data-translate="departments_subtitle">Explore our diverse range of artistic disciplines</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <!-- Painting Department -->
+        <div class="mb-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="order-2 lg:order-1">
+                <h2 class="text-3xl font-bold font-playfair text-gray-900 mb-4" data-translate="feature_painting">Department of Painting</h2>
+                <p class="text-gray-600 mb-6" data-translate="feature_painting_desc">The Department of Painting offers comprehensive training in various painting techniques and styles. Students develop their artistic vision while mastering traditional and contemporary approaches to painting.</p>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fas fa-palette text-red-800 mt-1 mr-4"></i>
+                        <div>
+                            <h3 class="font-semibold">Course Highlights</h3>
+                            <p class="text-gray-600">Oil painting, watercolor, contemporary techniques, art history, and composition</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-user-graduate text-red-800 mt-1 mr-4"></i>
+                        <div>
+                            <h3 class="font-semibold">Career Opportunities</h3>
+                            <p class="text-gray-600">Professional artist, art educator, gallery curator, art restorer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-1 lg:order-2 relative h-96">
+                <img src="https://images.unsplash.com/photo-1579965342575-16428a7c8881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Painting Department" class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl">
+            </div>
+        </div>
+
+        <!-- Graphic Design Department -->
+        <div class="mb-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="relative h-96">
+                <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Graphic Design Department" class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold font-playfair text-gray-900 mb-4" data-translate="feature_design">Department of Graphic Design</h2>
+                <p class="text-gray-600 mb-6" data-translate="feature_design_desc">The Department of Graphic Design combines artistic creativity with technical skills to prepare students for careers in digital design and visual communication.</p>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fas fa-laptop-code text-red-800 mt-1 mr-4"></i>
+                        <div>
+                            <h3 class="font-semibold">Course Highlights</h3>
+                            <p class="text-gray-600">Digital design, typography, branding, web design, and motion graphics</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-briefcase text-red-800 mt-1 mr-4"></i>
+                        <div>
+                            <h3 class="font-semibold">Career Opportunities</h3>
+                            <p class="text-gray-600">Graphic designer, UI/UX designer, art director, brand designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Department -->
+        <div class="mb-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="order-2 lg:order-1">
+                <h2 class="text-3xl font-bold font-playfair text-gray-900 mb-4" data-translate="feature_music">Department of Music</h2>
+                <p class="text-gray-600 mb-6" data-translate="feature_music_desc">The Department of Music offers comprehensive training in music theory, performance, and composition. Students develop their musical abilities while exploring various genres and traditions.</p>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fas fa-music text-red-800 mt-1 mr-4"></i>
+                        <div>
+                            <h3 class="font-semibold">Course Highlights</h3>
+                            <p class="text-gray-600">Music theory, composition, performance, music history, and ensemble playing</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-microphone text-red-800 mt-1 mr-4"></i>
+                        <div>
+                            <h3 class="font-semibold">Career Opportunities</h3>
+                            <p class="text-gray-600">Professional musician, music educator, composer, music producer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-1 lg:order-2 relative h-96">
+                <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Music Department" class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl">
+            </div>
+        </div>
+
+        <!-- Theater Department -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="relative h-96">
+                <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Theater Department" class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold font-playfair text-gray-900 mb-4" data-translate="feature_theater">Department of Theater</h2>
+                <p class="text-gray-600 mb-6" data-translate="feature_theater_desc">The Department of Theater provides comprehensive training in acting, directing, and theatrical production. Students develop their performance skills while exploring various aspects of theater arts.</p>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fas fa-theater-masks text-red-800 mt-1 mr-4"></i>
+                        <div>
+                            <h3 class="font-semibold">Course Highlights</h3>
+                            <p class="text-gray-600">Acting techniques, directing, stage design, theater history, and production</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-film text-red-800 mt-1 mr-4"></i>
+                        <div>
+                            <h3 class="font-semibold">Career Opportunities</h3>
+                            <p class="text-gray-600">Actor, director, theater educator, production designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4" data-translate="footer_contact">Contact Us</h3>
+                    <p class="text-gray-400" data-translate="academy_name">Manas Art Academy</p>
+                    <p class="text-gray-400">Bishkek, Kyrgyzstan</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4" data-translate="footer_links">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white" data-translate="nav_about">About</a></li>
+                        <li><a href="departments.html" class="text-gray-400 hover:text-white" data-translate="nav_departments">Departments</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white" data-translate="nav_gallery">Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white" data-translate="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4" data-translate="footer_follow">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+                <p class="text-gray-400" data-translate="footer_copyright">© 2023 Manas Art Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
