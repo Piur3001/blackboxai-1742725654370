@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Manas Art Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/languageSwitcher.js"></script>
+    <style>
+        .font-playfair { font-family: 'Playfair Display', serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+    </style>
+</head>
+<body class="font-roboto">
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="assets/images/logo.svg" alt="University Logo" class="h-12">
+                        <span class="ml-2 text-xl font-semibold" data-translate="academy_name">Manas Art Academy</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="about.html" class="text-red-800 hover:text-red-700" data-translate="nav_about">About</a>
+                    <a href="departments.html" class="text-gray-700 hover:text-red-800" data-translate="nav_departments">Departments</a>
+                    <a href="gallery.html" class="text-gray-700 hover:text-red-800" data-translate="nav_gallery">Gallery</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-red-800" data-translate="nav_contact">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-16">
+        <div class="relative py-16 bg-red-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl font-bold text-white font-playfair" data-translate="about_title">About Us</h1>
+                <p class="mt-4 text-xl text-red-100" data-translate="about_subtitle">Learn about our history, mission, and commitment to art education</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+                <h2 class="text-3xl font-bold font-playfair text-gray-900 mb-6" data-translate="our_history">Our History</h2>
+                <p class="text-gray-600 mb-4" data-translate="history_text1">Manas Art Academy was founded by the Senate in 2007. Our journey began with the Departments of Painting and Graphic Design in 2009, welcoming our first cohort of talented students.</p>
+                <p class="text-gray-600" data-translate="history_text2">In 2015, we expanded our offerings by opening the Departments of Music and Theater, further enriching our academic community and providing more opportunities for artistic expression and growth.</p>
+            </div>
+            <div class="relative h-96">
+                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1464&q=80" alt="Art History" class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl">
+            </div>
+        </div>
+
+        <div class="bg-gray-50 rounded-xl p-8 mb-16">
+            <h2 class="text-3xl font-bold font-playfair text-gray-900 mb-6">Our Mission</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-graduation-cap text-xl text-red-800"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Education Excellence</h3>
+                    <p class="text-gray-600">Providing high-quality education that meets international standards and prepares students for successful careers in the arts.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-palette text-xl text-red-800"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Artistic Innovation</h3>
+                    <p class="text-gray-600">Fostering creativity and innovation while preserving and promoting cultural heritage through artistic expression.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-globe text-xl text-red-800"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Global Perspective</h3>
+                    <p class="text-gray-600">Creating opportunities for international collaboration and exchange in the arts community.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-16">
+            <h2 class="text-3xl font-bold font-playfair text-gray-900 mb-6">Academic Programs</h2>
+            <p class="text-gray-600 mb-8">Our academic programs cover 8 semesters and have been approved by the Ministry of Education and Science of the Kyrgyz Republic. The program is similar to equivalent programs in Kyrgyzstan and Turkey, meeting Bologna Process requirements.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="border border-gray-200 rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-4">Program Features</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">8 semester comprehensive curriculum</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">International exchange opportunities</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Professional development workshops</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span class="text-gray-600">Exhibition and performance opportunities</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="border border-gray-200 rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-4">Student Benefits</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-3"></i>
+                            <span class="text-gray-600">Access to state-of-the-art facilities</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-3"></i>
+                            <span class="text-gray-600">Mentorship from experienced faculty</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-3"></i>
+                            <span class="text-gray-600">Industry connections and networking</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-3"></i>
+                            <span class="text-gray-600">Career guidance and support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4" data-translate="footer_contact">Contact Us</h3>
+                    <p class="text-gray-400" data-translate="academy_name">Manas Art Academy</p>
+                    <p class="text-gray-400">Bishkek, Kyrgyzstan</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4" data-translate="footer_links">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white" data-translate="nav_about">About</a></li>
+                        <li><a href="departments.html" class="text-gray-400 hover:text-white" data-translate="nav_departments">Departments</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white" data-translate="nav_gallery">Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white" data-translate="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4" data-translate="footer_follow">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+                <p class="text-gray-400" data-translate="footer_copyright">© 2023 Manas Art Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
